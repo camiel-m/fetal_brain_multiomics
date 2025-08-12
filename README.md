@@ -105,4 +105,6 @@ Our gene and transcripts annotation is based on Based on GRCh38.p13 gencode V35 
 
 We discarded genes or transcripts that overlapped or mapped to other genes or non-coding RNAs 3’ UTR.
 
+From [this link](https://storage.googleapis.com/linnarsson-lab-human/build-refdata-cellranger-arc-hg38-final3.tgz) you can download the input files to build the cellranger-arc index yourself.
+
 For more information please see [the corresponding github repo](https://github.com/linnarsson-lab/developing-human-brain).
