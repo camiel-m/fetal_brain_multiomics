@@ -80,12 +80,19 @@ The `.agg` files are aggregate files where each column represents a cluster in t
 - '': Base layer contains binarized counts
 - 'Counts': Counts per peak
 
-## Download 10X cellranger output (ATAC/ARC)
-To download the 10X output for individual samples use the command below, replacing {sample} with the sample you need. 
-A list of all the sample names can be found in [10X_output](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/10X_output_samples.txt), and the metadata providing region, name, sample ID etc can be found in [Extended data 1](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/supplementals/Extended_data_1_sample_data.xlsx)
-```
-wget https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/10X/{sample}
-```
+## Raw sequence data
+
+Raw sequencing data are available through from the European Genome Phenome Archive [EGAS00001007472](https://ega-archive.org/studies/EGAS00001007472).
+
+Our gene and transcript annotations used for the [cellranger-arc](https://www.10xgenomics.com/support/software/cell-ranger-arc/latest) pipeline are based on Based on GRCh38.p13 gencode V35 primary sequence assembly as previously described in [Emelie Braun et al., Science 2023](https://www.science.org/doi/10.1126/science.adf1226). 
+
+We discarded genes or transcripts that overlapped or mapped to other genes or non-coding RNAs 3’ UTR.
+
+From [this link](https://www.dropbox.com/scl/fi/n0lzymiyt4u42pzj4vzvj/refdata-cellranger-arc-hg38-final3.tgz?rlkey=3qrgtlpnrwge8zbx7wb9pwxia&st=bl7vnv4c&dl=1) you can download the input files to build the cellranger-arc index yourself.
+
+For more information please see [the corresponding github repo](https://github.com/linnarsson-lab/developing-human-brain).
+
+A list of all sample names can be found in [10X_output](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/10X_output_samples.txt), and the metadata providing region, name, sample ID etc can be found in [Extended data 1](https://github.com/linnarsson-lab/fetal_brain_multiomics/blob/main/files/supplementals/Extended_data_1_sample_data.xlsx)
 
 ## Preprint (bioRxiv)
 
@@ -97,12 +104,3 @@ We use the [Chromograph](https://github.com/linnarsson-lab/chromograph) pipeline
 Code for making many of the figures is available as [Jupyter notebooks](notebooks/README.md)
 The package versions used to generate these figures are in [this environment file](environment.yml)
 
-### Genes and transcripts annotation
-
-Our gene and transcripts annotation is based on Based on GRCh38.p13 gencode V35 primary sequence assembly as previously described in [Emelie Braun et al., Science 2023](https://www.science.org/doi/10.1126/science.adf1226). 
-
-We discarded genes or transcripts that overlapped or mapped to other genes or non-coding RNAs 3’ UTR.
-
-From [this link](https://storage.googleapis.com/linnarsson-lab-human/build-refdata-cellranger-arc-hg38-final3.tgz) you can download the input files to build the cellranger-arc index yourself.
-
-For more information please see [the corresponding github repo](https://github.com/linnarsson-lab/developing-human-brain).
