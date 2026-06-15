@@ -1,8 +1,6 @@
 # fetal_brain_multiomics
 [Mannens, C.C.A., Hu, L., Lönnerberg, P. et al. Chromatin accessibility during human first-trimester neurodevelopment. Nature (2024). https://doi.org/10.1038/s41586-024-07234-1](https://www.nature.com/articles/s41586-024-07234-1)
 
-![fig1.pdf](https://github.com/linnarsson-lab/fetal_brain_multiomics/files/12143211/fig1.pdf)
-
 ## Download the loom files
   
 [Pool_peaks.loom](https://www.dropbox.com/scl/fi/hozow8gaub1rjckgp93lp/Pool_peaks.loom.gz?rlkey=ssp97d68ktyv8ohpsf0mwxlz9&st=ub33iuq1&dl=1)
@@ -101,7 +99,7 @@ The package versions used to generate these figures are in [this environment fil
 
 ### Genes and transcripts annotation
 
-Our gene and transcripts annotation is based on Based on GRCh38.p13 gencode V35 primary sequence assembly as previously described in [Emelie Braun et al., 2022, in review](https://www.biorxiv.org/content/10.1101/2022.10.24.513487v1). 
+Our gene and transcripts annotation is based on Based on GRCh38.p13 gencode V35 primary sequence assembly as previously described in [Emelie Braun et al., Science 2023](https://www.science.org/doi/10.1126/science.adf1226). 
 
 We discarded genes or transcripts that overlapped or mapped to other genes or non-coding RNAs 3’ UTR.
 
