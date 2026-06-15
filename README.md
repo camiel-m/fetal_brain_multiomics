@@ -4,34 +4,32 @@
 ![fig1.pdf](https://github.com/linnarsson-lab/fetal_brain_multiomics/files/12143211/fig1.pdf)
 
 ## Download the loom files
-
-# Please note that files are not available for the moment. We are working on solving this issue. #
   
-[Pool_peaks.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_peaks.loom)
+[Pool_peaks.loom](https://www.dropbox.com/scl/fi/hozow8gaub1rjckgp93lp/Pool_peaks.loom.gz?rlkey=ssp97d68ktyv8ohpsf0mwxlz9&st=ub33iuq1&dl=1)
 
-[Pool_peaks.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_peaks.agg.loom)
+[Pool_peaks.agg.loom](https://www.dropbox.com/scl/fi/zotdkbjwcr7gjoif7ow3l/Pool_peaks.agg.loom.gz?rlkey=gu9ropm9qx5dqy1llsxvds5dl&st=o4077q29&dl=1)
 
-[Pool_RNA.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_RNA.loom)
+[Pool_RNA.loom](https://www.dropbox.com/scl/fi/vu2m6tfxzpahopk85q0bx/Pool_RNA.loom.gz?rlkey=kui3mr83ukojzjg4zsmobsh10&st=5kxv3oua&dl=1)
 
-[Pool_RNA.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_RNA.agg.loom)
+[Pool_RNA.agg.loom](https://www.dropbox.com/scl/fi/p3phh8n4nhtm4ou8x2r90/Pool_RNA.agg.loom?rlkey=uz6nkgok6blar49owvi7y8kxr&st=9i4j2rod&dl=1)
 
-[Pool_GA.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_GA.loom)
+[Pool_GA.loom](https://www.dropbox.com/scl/fi/9ollr4avd508tc6dhx2hv/Pool_GA.loom?rlkey=h2gw3lj9ti7wne0uo29ztjwk0&st=owwrlrsp&dl=1)
 
-[Pool_GA.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_GA.agg.loom)
+[Pool_GA.agg.loom](https://www.dropbox.com/scl/fi/ghl28tz0hqjcivzw3pp6j/Pool_GA.agg.loom?rlkey=i7eofvjjfzlhhc61yxuh3av0f&st=8in77okq&dl=1)
 
-[Pool_motifs.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_motifs.agg.loom)
+[Pool_motifs.agg.loom](https://www.dropbox.com/scl/fi/44jjsjcfybnum9xn3b63m/Pool_motifs.agg.loom?rlkey=z6jxocrm2iyjul769f8yrspxo&st=ygy2vo1q&dl=1)
 
-[Pool_subset_RNA.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Pool_subset_RNA.loom)
+[Pool_subset_RNA.loom](https://www.dropbox.com/scl/fi/vu2m6tfxzpahopk85q0bx/Pool_RNA.loom.gz?rlkey=kui3mr83ukojzjg4zsmobsh10&st=5kxv3oua&dl=1)
 
-[Purkinje_RNA.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_RNA.loom)
+[Purkinje_RNA.loom](https://www.dropbox.com/scl/fi/9w3o2ddq6yg19zr5tfka2/Purkinje_RNA.loom.gz?rlkey=t22f4lttc2wocalb8b700knf4&st=eg1vaz5a&dl=1)
 
-[Purkinje_RNA.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_RNA.agg.loom)
+[Purkinje_RNA.agg.loom](https://www.dropbox.com/scl/fi/xxyu3ow907b77raszzc1u/Purkinje_RNA.agg.loom?rlkey=hmsref739z3dd53zvrt97fw77&st=s803ih66&dl=1)
 
-[Purkinje_chromVAR.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_chromVAR.loom)
+[Purkinje_chromVAR.loom](https://www.dropbox.com/scl/fi/j6bilrrbdv907gq5s0ygz/Purkinje_chromVAR.loom?rlkey=bpnbrmxipcqjjaqfhebs7zdxb&st=m70va4j9&dl=1)
 
-[Purkinje_peaks.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_peaks.loom)
+[Purkinje_peaks.loom](https://www.dropbox.com/scl/fi/bpqxlgzxsdj4h0f8d2k3y/Purkinje_peaks.loom.gz?rlkey=m0trhqzf3fe8iw5tr5ucrl35i&st=c0ohruf8&dl=1)
 
-[Purkinje_peaks.agg.loom](https://storage.googleapis.com/linnarsson-lab-human/ATAC_dev/Purkinje_peaks.agg.loom)
+[Purkinje_peaks.agg.loom](https://www.dropbox.com/scl/fi/c7gm7slkc8rxlrqgn0oje/Purkinje_peaks.agg.loom?rlkey=xsn9tan47a7qwego2060ygtj3&st=sfbogjjl&dl=1)
 
 The `.agg` files are aggregate files where each column represents a cluster in the main loom-file with the same name.
 
