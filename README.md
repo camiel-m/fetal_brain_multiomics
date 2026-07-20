@@ -1,6 +1,8 @@
 # fetal_brain_multiomics
 [Mannens, C.C.A., Hu, L., Lönnerberg, P. et al. Chromatin accessibility during human first-trimester neurodevelopment. Nature (2024). https://doi.org/10.1038/s41586-024-07234-1](https://www.nature.com/articles/s41586-024-07234-1)
 
+# The loom files and cell ranger outputs hosted on this page are temporarily unavailable. Please access the data either through the EGA or download processed data from CELLxGENE or CATlas. 
+
 ## Download the loom files
   
 [Pool_peaks.loom](https://www.dropbox.com/scl/fi/hozow8gaub1rjckgp93lp/Pool_peaks.loom.gz?rlkey=ssp97d68ktyv8ohpsf0mwxlz9&st=ub33iuq1&dl=1)
@@ -79,6 +81,10 @@ The `.agg` files are aggregate files where each column represents a cluster in t
 ## Layers in Peak files:
 - '': Base layer contains binarized counts
 - 'Counts': Counts per peak
+
+## Other access points to the processed data
+- [CELLxGENE](https://cellxgene.cziscience.com/collections/a66d41a7-f1de-4b70-b983-7a4b790a0d5d): multiome data is available in anndata format or as fragment files.
+- [CATlas](https://catlas.org/humanbraindev/#!/): here you can download bigwig files, candidate cCREs and predicted gene-cCRE links.
 
 ## Raw sequence data
 
