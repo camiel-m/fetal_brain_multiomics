@@ -1,7 +1,7 @@
 # fetal_brain_multiomics
 [Mannens, C.C.A., Hu, L., Lönnerberg, P. et al. Chromatin accessibility during human first-trimester neurodevelopment. Nature (2024). https://doi.org/10.1038/s41586-024-07234-1](https://www.nature.com/articles/s41586-024-07234-1)
 
-# The loom files and cell ranger outputs hosted on this page are temporarily unavailable. Please access the data either through the EGA or download processed data from CELLxGENE or CATlas. 
+## The loom files and cell ranger outputs hosted on this page are temporarily unavailable. Please access the data either through the EGA or download processed data from CELLxGENE or CATlas. 
 
 ## Download the loom files
   
